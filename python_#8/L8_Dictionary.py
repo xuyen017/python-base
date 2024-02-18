@@ -8,10 +8,10 @@ Key phải là một kiểu dữ liệu không thay đổi (immutable) như chu�
 '''
 #create a new dictionary: A dictionary is a collection which is unordered, changeable and indexed.
 # a dictionary consists of a collection of key-value pairs.
-my_dict ={"name": "thexuyen", "content": "Love", "city": 'thp hcm', "age": '12'}
+#my_dict ={"name": "thexuyen", "content": "Love", "city": 'thp hcm', "age": '12'}
 #print(my_dict)
 
-my_dict2=dict(name="sss", conten= "aaa",city='hn')
+#my_dict2=dict(name="sss", conten= "aaa",city='hn')
 #print(my_dict2)
 # # Access iteams
 # content_in_my_dict = my_dict["content"]
@@ -45,15 +45,18 @@ my_dict2=dict(name="sss", conten= "aaa",city='hn')
 # my_dict.popitem() # delete the last inserted key-values pair
 
 #Looping through Dictionary
-# loop over keys
-for key in my_dict:
-    print(key, my_dict[key])
-#loop over values
-for value in my_dict.values():
-    print(value)
-#loop over keys and values\
-for key, value in my_dict.items():
-    print(key, value)
+# # loop over keys
+# for key in my_dict:
+#     print(key, my_dict[key])
+# #loop over values
+# for value in my_dict.values():
+#     print(value)
+# #loop over keys and values\
+# for key, value in my_dict.items():
+#     print(key, value)
+
+#is unique : Implemnt an Algorithm to datermine 
+#if a string has all unique charracters
 
 
 
